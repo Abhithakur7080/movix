@@ -11,10 +11,10 @@ const Admin = () => {
           <span>&#xa9;</span>
           <h5>Copyright - All reserved</h5>
         </div>
-        <a href="" className="icon">
+        <a href="https://github.com/Abhithakur7080/movix" className="icon">
           <FaGithub />
         </a>
-        <a href="" className="icon">Abhijeet kumar</a>
+        <a href="https://github.com/Abhithakur7080/movix" className="icon">Abhijeet kumar</a>
         </div>
       </ContentWrapper>
   );

@@ -15,10 +15,10 @@ const HeroBanner = () => {
   const { data, loading } = useFetch("/movie/upcoming");
   useEffect(() => {
     const bg =
-      url.backdrop +
+      url?.backdrop +
       data?.results[Math.floor(Math.random() * 20)]?.backdrop_path;
     setBackground(bg);
-  }, [data]);
+  }, [data, url]);
   const handleSearchQuery = (e) => {
     if (e.key === "Enter" && query.length > 0) {
       navigate(`/search/${query}`);
