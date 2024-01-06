@@ -1,0 +1,19 @@
+.admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 10px 0;
+    .copyright{
+        display: flex;
+        font-size: 20px;
+        h5{
+            margin-left: 10px;
+        }
+    }
+    .icon{
+        margin-left: 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+}
