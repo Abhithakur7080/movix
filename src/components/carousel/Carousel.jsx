@@ -15,7 +15,7 @@ import "./style.scss";
 import { homeSelector } from "../../redux/reducers/homeReducer";
 import CircleRating from "../circleRating/CircleRating";
 import Genres from "../genres/Genres";
-const Carousel = ({ data, loading, endPoint }) => {
+const Carousel = ({title, data, loading, endPoint }) => {
   const carouselContainer = useRef();
   const { url } = useSelector(homeSelector);
   const navigate = useNavigate();
@@ -41,10 +41,11 @@ const Carousel = ({ data, loading, endPoint }) => {
       </div>
     );
   };
-
+console.log(endPoint);
   return (
     <div className="carousel">
       <ContentWrapper>
+        {title && <div className="carouselTitle">{title}</div>}
         <BsFillArrowLeftCircleFill
           className="carouselLeftNav arrow"
           onClick={() => navigation("left")}
