@@ -13,4 +13,4 @@ Movix is an immersive entertainment-based website that seamlessly integrates wit
 4. **react-icons**: used to get all icons like- search, cross, menu, etc...
 5. **react-infinite-scroll-component**: used to get infinite movie on the search content mainly more movies.
 6. **react-player**: used to play trailer of movie.
-7. **react-router-dom**: it is used basically routing process to view on another page like- click on a movie go to movie detail page.
+7. **react-router-dom**: it is used basically routing process to view on another page like- when click on a movie go to movie detail page.
