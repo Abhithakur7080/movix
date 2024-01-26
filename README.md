@@ -14,3 +14,15 @@ Movix is an immersive entertainment-based website that seamlessly integrates wit
 5. **react-infinite-scroll-component**: used to get infinite movie on the search content mainly more movies.
 6. **react-player**: used to play trailer of movie.
 7. **react-router-dom**: it is used basically routing process to view on another page like- when click on a movie go to movie detail page.
+8. **react-select**: it is used to select filter the one or more than genres here.
+9. **react-lazy-load-image-component**: it used on basically loading of images when data is on pending state.
+10. **@reduxjs/toolkit**: to centerlized the state data and used to components.
+11. **react-redux**: use of redux actions and states on the components
+12. **sass**: it gives some flexability on the css to use like mixins use here for responsive.
+
+
+### Endpoints
+
+**Base-url**: [https://api.themoviedb.org/3](https://api.themoviedb.org/3)
+1. Homepage
+Getting Banner data: (Base-url/movie/upcoming)
