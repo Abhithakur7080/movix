@@ -21,8 +21,10 @@ Movix is an immersive entertainment-based website that seamlessly integrates wit
 12. **sass**: it gives some flexability on the css to use like mixins use here for responsive.
 
 
-### Endpoints
+### TMDB API used
 
 **Base-url**: [https://api.themoviedb.org/3](https://api.themoviedb.org/3)
-1. Homepage
-Getting Banner data: (Base-url/movie/upcoming)
+1. Homepage<br>
+Getting Banner data: (Base-url/movie/upcoming)<br>
+Getting Popular movies data: (Base-url/--endPoint--/popular)<-endpoints: movie or tv<br>
+Getting Banner data: (Base-url/movie/upcoming)<br>
